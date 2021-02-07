@@ -33,7 +33,7 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
